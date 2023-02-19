@@ -31,14 +31,15 @@ export default defineUserConfig({
         navbar: navbarEn,
         sidebar: sidebarEn,
         // TODO: repo
-        // repo: 'vuepress/vuepress-next',
-
+        repo: 'obkoro1LinCause/stop-mess-around-docs',
         selectLanguageName: 'English',
       },
       '/zh/': {
         sidebar: sidebarZh,
         navbar: navbarZh,
         selectLanguageName: '简体中文',
+        // TODO: repo
+        // repo: 'obkoro1LinCause/stop-mess-around-docs',
       },
     },
   }),

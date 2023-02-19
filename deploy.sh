@@ -2,7 +2,7 @@
 # Author       : OBKoro1 1677593011@qq.com
 # Date         : 2023-02-15 22:34:25
 # Last Author  : OBKoro1 1677593011@qq.com
-# LastEditTime : 2023-02-19 17:01:19
+# LastEditTime : 2023-02-19 17:38:25
 # FilePath     : /docs-stop-mess-around/deploy.sh
 # Description :
 # Company 2023-2023. All rights reserved.
@@ -42,7 +42,7 @@ echo 'commit1'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-git push -f git@github.com:obkoro1-lin-cause/stop-mess-around-docs.git master:gh-pages
+git push -f git@github.com:obkoro1LinCause/stop-mess-around-docs.git master:gh-pages
 
 cd -
 
