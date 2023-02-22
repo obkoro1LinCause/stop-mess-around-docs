@@ -15,4 +15,6 @@ jobs:
           dst: 'gitee/obkoro1LinCause'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
+          force_update: true
+          debug: true
           static_list: "stop-mess-around-docs"
