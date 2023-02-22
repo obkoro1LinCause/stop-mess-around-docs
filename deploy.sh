@@ -2,7 +2,7 @@
 # Author       : OBKoro1 1677593011@qq.com
 # Date         : 2023-02-15 22:34:25
 # Last Author  : OBKoro1 1677593011@qq.com
-# LastEditTime : 2023-02-19 17:38:25
+# LastEditTime : 2023-02-22 22:41:29
 # FilePath     : /docs-stop-mess-around/deploy.sh
 # Description :
 # Company 2023-2023. All rights reserved.
@@ -23,6 +23,9 @@ npm run docs:build -- $1
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
+
+# 拷贝目录和文件
+cp -r ../../../.github ./
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
