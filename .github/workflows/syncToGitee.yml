@@ -10,6 +10,7 @@ jobs:
       - name: Mirror the Github organization repos to Gitee.
         uses: Yikun/hub-mirror-action@master
         with:
+          account_type: org
           src: 'github/obkoro1LinCause'
           dst: 'gitee/obkoro1LinCause'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
